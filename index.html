@@ -3,15 +3,21 @@
   <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-sccale=1.0">
+	<meta name="description" content="SIti web ultra-veloci, sicuri e ottimizzati per Google. Senza l'utilizzao di pesanti CMS.">
 	<title>Riccardo Giordano | Web Developer Freelance HTML & CSS</title>
 	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
   </head>
 
   <body>
 	<!-- NAVIGAZIONE -->
 	<header class="portfolio-header">
-		<div class="brand">RG<span>.dev</span></div>
+		
+			<div class="brand">RG<span>.dev</span></div>
+		
+			
+
 		<nav>
 			<ul>
 				<li><a href="#progetti">Progetti</a></li>
@@ -85,9 +91,21 @@
 	<!-- CONTATTI -->
 	<section id="contatti" class="contact-section">
 		<h2>Hai un Progetto in Mente?</h2>
-		<p>Scrivimi per ricevere un preventivo gratutito o per discutere la tua idea di business.</p>
-		<a href="mailto:rgiordano.dev@libero.it" class="btn-mail">Invia Un'E-mail</a>
+		<p>Compila i campi sotto per un preventivo gratutito o per discutere la tua idea di business.</p>
+		
+		<form class="contact-form" action="https://formspree.io/f/mbgralny" method="POST">
+
+			<input type="text" name="nome" placeholder="Il tuo nome" required>
+			<input type="email" name="Email" placeholder="La tua Email" required>
+			<textarea name="testo" placeholder="Parlami del tuo progetto..." rows="5" required></textarea>
+			<button type="submit" class="btn-mail">Invia Richiesta</button>
+
+		</form>
 	</section>
+
+	<div class="social">
+		<a href="https://github.com/Rikhart-dev" class="fa fa-github"></a>
+	</div>
   </body>		
 
 </html>

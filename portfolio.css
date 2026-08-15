@@ -27,8 +27,10 @@ body{
 	z-index:100;
 }
 
+
+
 .brand{
-	font-size: 1.5 rem;
+	font-size: 2rem;
 	font-weight:700;
 	color: #333;
 }
@@ -202,6 +204,21 @@ nav ul li a:hover{
 	color: #ADB5BD
 }
 
+.contact-form{
+	max-width: 500px;
+	margin: 30px auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.contact-form input, contact-form textarea{
+	width 100%;
+	padding: 12px;
+	border 1px solid #CCC;
+	font-size: 1rem;
+}	
+
 .btn-mail{
 	display: inline-block;
 	background-color: #28A745;
@@ -210,6 +227,22 @@ nav ul li a:hover{
 	text-decoration: none;
 	border-radius: 5px;
 	font-weight: 600;
+}
+/* ---SEZIONE SOCIAL--- */
+.social{
+	text-align: center;
+	background-color: #1A1D20;
+	
+}
+ 
+.social a{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.social a:hover{
+	border: 1px solid #FFF;
 }
 
 /*---RESPONSIVE MOBILE---*/
