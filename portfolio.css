@@ -5,7 +5,7 @@
 	padding: 0;
 	box-seizing: border-box;
 	font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-	scroll-behaviro: smooth; /* Scorrimento morbido ai clicl del menu */
+	scroll-behavior: smooth; /* Scorrimento morbido ai clicl del menu */
 }
 
 body{
